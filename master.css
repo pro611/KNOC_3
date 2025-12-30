@@ -128,19 +128,6 @@
 
     transform: translate(-50%, -50%);
     pointer-events: none; 
-    
-    /* fade in */
-    opacity: 0;
-    animation: fadeInVideo 6s ease forwards;
-}
-
-@keyframes fadeInVideo {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
 }
 
 
@@ -194,4 +181,5 @@
     max-width: 626px;
     object-fit: contain;
     width: 80%;
+
 }
