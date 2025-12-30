@@ -1,0 +1,183 @@
+/* 전 항목 공통 */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+.head2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background: #fff;
+}
+.head3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+.head_1{
+    width: 100%;
+    max-width: 1920px;
+    min-width: 1500px;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    border-radius: 0px 0px 98px 98px;
+    position: relative;
+    overflow: hidden;
+}
+
+.main iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 100vw;
+    height: 56.25vw; /* 9 / 16 */
+
+    min-width: 177.77vh;
+    min-height: 100vh;
+
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    
+}
+
+.main_1{
+    width: 70%;
+    max-width: 1386px;
+    min-width: 1000px;
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 570px;
+}
+.main_1_1{
+    width: 100%;
+}
+
+
+.main2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main_2_1{
+    width: 100%;
+    max-width: 1920px;
+}
+
+.main3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f3f4f4;
+}
+
+.main4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #1a1918;
+}
+
+
+
+.sub1{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    z-index: -1;
+    filter: brightness(60%);
+    background-color: black;
+}
+.sub1 iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 100vw;
+    height: 56.25vw; /* 9 / 16 */
+
+    min-width: 177.77vh;
+    min-height: 100vh;
+
+    transform: translate(-50%, -50%);
+    pointer-events: none; 
+}
+
+
+
+.sub2{
+    width: 100%;
+    display: flex;
+}
+.sub2_left{
+    width: 34%;
+    display: flex;
+    justify-content: right;
+}
+.sub2_left_1{
+    width: 100%;
+    max-width: 656px;
+}
+.sub2_right{
+    width: 66%;
+}
+.right_bg_1{
+    width: 100%;
+    background-color: #f3f4f4;
+}
+.sub2_right_1{
+    width: 100%;
+    max-width: 1263px;
+}
+.right_bg_2{
+    width: 100%;
+    background-color: #fff;
+}
+
+
+.intro1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.intro1 a {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.intro1_1{
+    max-width: 626px;
+    object-fit: contain;
+    width: 80%;
+}
